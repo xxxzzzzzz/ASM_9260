@@ -1,0 +1,30 @@
+ASM9260CPU性能功耗
+工作温度（工业级） -40℃ to 85℃ 
+VDD18 		内核工作电源 		1.62 1.8 1.98 V
+VDD33 		GPIO 电源 		2.97 3.3 3.63 V
+VDD330 		USB0 工作电源 		2.97 3.3 3.63 V
+VDD331	 	USB1 工作电源 		2.97 3.3 3.63 V
+VDDB 		模拟电源 		2.97 3.3 3.63 V
+VDDQ_K		内置 SDRAM电源 		2.97 3.3 3.63 V
+VDD_K 		内置 SDRAM电源 		2.97 3.3 3.63 V
+VDD 		内置 SDRAM电源 		2.97 3.3 3.63 V
+BAT 		电池电源 		2.5 3.0 3.6 V
+VIL 		输入低电平 		VDD33=3.3V -0.3 0.8 V
+VIH 		输入高电平 		VDD33=3.3V 2.0 VDD33+0.3 V
+VOL 		输出低电平 		VDD33=3.3V 0.1 V
+VOH 		输出高电平 		VDD33=3.3V VDD33-0.4 V
+RPULLDN IO 	下拉电阻		 VDD33=3.3V 25k Ohm
+		IO 输出电流		12mA
+		IO口输入电流		8mA
+
+
+串口调试接口Txd4
+	    Rxd4
+
+伍老师CH340模块接口 P2
+		    0
+    		    GND
+		    0
+		    0
+		    RxD
+	            TxD			 
